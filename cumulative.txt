@@ -1,0 +1,18 @@
+package strings;
+
+
+public class Strings {
+
+    
+    public static void main(String[] args) 
+    {
+        String arr[]={"neha","soma"};
+        int tl=0;
+        for(int i=0;i<arr.length;i++)
+        {
+            tl+=arr[i].length();
+        }
+        System.out.println(tl); //find Cumulative...combined length of all strings
+    }
+    
+}

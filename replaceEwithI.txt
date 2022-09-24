@@ -1,0 +1,30 @@
+
+package strings;
+
+import java.util.Scanner;
+
+
+public class Strings {
+
+    
+    public static void main(String[] args) 
+    {
+        //original="eabedef"
+        //result="iabidif"      replace "e" with "i"
+        Scanner sc=new Scanner(System.in);
+        String org=sc.next();
+        String rst="";
+        for(int i=0;i<org.length();i++)
+        {
+            if(org.charAt(i) == 'e')
+            {
+                rst += 'i';
+            }
+            else
+                rst+= org.charAt(i);
+        }
+        System.out.println(rst);
+    }
+    
+    
+}

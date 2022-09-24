@@ -1,0 +1,14 @@
+package strings;
+
+
+public class Strings {
+
+    
+    public static void main(String[] args) 
+    {
+        int num=123;
+        String str=Integer.toString(num);  //convert number into string
+        System.out.println(num+10); //12310..concatinate becoz it is string
+    }
+    
+}
